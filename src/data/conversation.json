@@ -1,0 +1,36 @@
+{
+  "conversations": [
+    {
+      "dialog": "Emm?",
+      "characterImage": "/bengong.gif"
+    },
+    {
+      "dialog": "Jadi gini iko..",
+      "characterImage": "/chatting.gif"
+    },
+    {
+      "dialog": "Kan kita sudah lumayan lama kenal nih..",
+      "characterImage": "/chatting.gif"
+    },
+    {
+      "dialog": "jir malu bilangnya",
+      "characterImage": "/blush.gif"
+    },
+    {
+      "dialog": "Kamu mau nggak ?",
+      "characterImage": "/bengong.gif"
+    },
+    {
+      "dialog": "Mau buka hadiah ??",
+      "characterImage": "/hai.gif"
+    },
+    {
+      "dialog": "Kok gitu.. beneran..??",
+      "characterImage": "/cry.gif"
+    },
+    {
+      "dialog": "sedihh",
+      "characterImage": "/cry.gif"
+    }
+  ]
+}
