@@ -74,7 +74,7 @@ const HeartAnimation: React.FC<HeartAnimationProps> = ({ fireworks }) => {
         vx: 0,
         vy: 0,
         R: 2,
-        speed: rand() + 5,
+        speed: rand() + 1,
         q: ~~(rand() * heartPointsCount),
         D: 2 * (i % 2) - 1,
         force: 0.2 * rand() + 0.7,

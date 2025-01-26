@@ -11,10 +11,10 @@ const ChatSection: React.FC = () => {
 
   const handleNext = () => {
     //? Additional Conditional
-    if (currentIndex === 5) {
+    if (currentIndex === 3) {
       toggleFireworks();
-    } else if (currentIndex === 6) {
-      setCurrentIndex(8);
+    } else if (currentIndex === 4) {
+      setCurrentIndex(6);
     }
 
     if (currentIndex < conversationsData.conversations.length - 1) {
@@ -23,10 +23,10 @@ const ChatSection: React.FC = () => {
   };
 
   const handlePrevious = () => {
-    if (currentIndex === 5) {
-      setCurrentIndex(6);
-    } else if (currentIndex === 6) {
+    if (currentIndex === 3) {
       setCurrentIndex(4);
+    } else if (currentIndex === 4) {
+      setCurrentIndex(2);
     } else if (currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
     }
@@ -53,9 +53,9 @@ const ChatSection: React.FC = () => {
             />
           </div>
           <div className="flex justify-end gap-[13px]">
-            {currentIndex === 7 ? null : (
+            {currentIndex === 5 ? null : (
               <>
-                {currentIndex === 5 || currentIndex === 6 ? (
+                {currentIndex === 3 || currentIndex === 4 ? (
                   <>
                     <button
                       onClick={handlePrevious}
